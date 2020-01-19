@@ -18,9 +18,9 @@ path = "src/lib.rs"
 
 [dependencies]
 actori-rt = "1.0.0"
-actori-macros = "0.1.0"
-actori-server = "1.0.0"
-actori-service = "1.0.0"
+actori-macros = "0.1.1"
+actori-server = "1.0.1"
+actori-service = "1.0.5"
 
 log = "0.4"
 net2 = "0.2"
