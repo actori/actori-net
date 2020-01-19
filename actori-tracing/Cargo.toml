@@ -1,7 +1,7 @@
 [package]
 name = "actori-tracing"
 version = "0.1.0"
-authors = ["Rajasekharan Vengalil <avranju@gmail.com>"]
+authors = ["Christian Haynes <06chaynes@gmail.com>", "Rajasekharan Vengalil <avranju@gmail.com>"]
 description = "Support for tokio tracing with Actori services"
 keywords = ["network", "framework", "tracing"]
 homepage = "https://actori.t42x.net"

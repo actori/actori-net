@@ -1,7 +1,7 @@
 [package]
 name = "actori-router"
 version = "0.2.4"
-authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+authors = ["Christian Haynes <06chaynes@gmail.com>", "Nikolay Kim <fafhrd91@gmail.com>"]
 description = "Path router"
 keywords = ["actori"]
 homepage = "https://actori.t42x.net"

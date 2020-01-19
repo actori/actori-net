@@ -1,10 +1,10 @@
-# Actix net [![Build Status](https://travis-ci.org/actix/actix-net.svg?branch=master)](https://travis-ci.org/actix/actix-net) [![codecov](https://codecov.io/gh/actix/actix-net/branch/master/graph/badge.svg)](https://codecov.io/gh/actix/actix-net) [![Join the chat at https://gitter.im/actix/actix](https://badges.gitter.im/actix/actix.svg)](https://gitter.im/actix/actix?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Actori net [![Build Status](https://travis-ci.org/actori/actori-net.svg?branch=master)](https://travis-ci.org/actori/actori-net) [![codecov](https://codecov.io/gh/actori/actori-net/branch/master/graph/badge.svg)](https://codecov.io/gh/actori/actori-net) [![Join the chat at https://gitter.im/actori/actori](https://badges.gitter.im/actori/actori.svg)](https://gitter.im/actori/actori?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Actix net - framework for composable network services
+Actori net - framework for composable network services
 
 ## Documentation & community resources
 
-* [Chat on gitter](https://gitter.im/actix/actix)
+* [Chat on gitter](https://gitter.im/actori/actori)
 * Minimum supported Rust version: 1.39 or later
 
 ## Example
@@ -20,7 +20,7 @@ fn main() -> io::Result<()> {
     let num = Arc::new(AtomicUsize::new(0));
 
     // bind socket address and start workers. By default server uses number of
-    // available logical cpu as threads count. actix net start separate
+    // available logical cpu as threads count. actori net start separate
     // instances of service pipeline in each worker.
     Server::build()
         .bind(
@@ -64,6 +64,6 @@ at your option.
 
 ## Code of Conduct
 
-Contribution to the actix-net crate is organized under the terms of the
-Contributor Covenant, the maintainer of actix-net, @fafhrd91, promises to
+Contribution to the actori-net crate is organized under the terms of the
+Contributor Covenant, the maintainer of actori-net, @fafhrd91, promises to
 intervene to uphold that code of conduct.

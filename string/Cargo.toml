@@ -1,7 +1,7 @@
 [package]
 name = "bytestring"
 version = "0.1.4"
-authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+authors = ["Christian Haynes <06chaynes@gmail.com>", "Nikolay Kim <fafhrd91@gmail.com>"]
 description = "A UTF-8 encoded string with Bytes as a storage"
 keywords = ["actori"]
 homepage = "https://actori.t42x.net"

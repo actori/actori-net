@@ -1,7 +1,7 @@
 [package]
 name = "actori-utils"
 version = "1.0.6"
-authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+authors = ["Christian Haynes <06chaynes@gmail.com>", "Nikolay Kim <fafhrd91@gmail.com>"]
 description = "Actori utils - various actori net related services"
 keywords = ["network", "framework", "async", "futures"]
 homepage = "https://actori.t42x.net"

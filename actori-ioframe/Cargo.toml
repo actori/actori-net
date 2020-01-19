@@ -1,7 +1,7 @@
 [package]
 name = "actori-ioframe"
 version = "0.5.0"
-authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+authors = ["Christian Haynes <06chaynes@gmail.com>", "Nikolay Kim <fafhrd91@gmail.com>"]
 description = "Actori framed service"
 keywords = ["network", "framework", "async", "futures"]
 homepage = "https://actori.t42x.net"

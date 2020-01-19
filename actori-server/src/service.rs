@@ -4,7 +4,7 @@ use std::task::{Context, Poll};
 use std::time::Duration;
 
 use actori_rt::spawn;
-use actori_service::{self as actori, Service, ServiceFactory as ActixServiceFactory};
+use actori_service::{self as actori, Service, ServiceFactory as ActoriServiceFactory};
 use actori_utils::counter::CounterGuard;
 use futures::future::{err, ok, LocalBoxFuture, Ready};
 use futures::{FutureExt, TryFutureExt};
