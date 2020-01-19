@@ -32,9 +32,9 @@ rustls = ["rust-tls", "webpki", "webpki-roots", "tokio-rustls"]
 nativetls = ["native-tls", "tokio-tls"]
 
 [dependencies]
-actori-service = "1.0.0"
+actori-service = "1.0.5"
 actori-codec = "0.2.0"
-actori-utils = "1.0.0"
+actori-utils = "1.0.6"
 actori-rt = "1.0.0"
 derive_more = "0.99.2"
 either = "1.5.2"
