@@ -16,9 +16,9 @@ name = "actori_ioframe"
 path = "src/lib.rs"
 
 [dependencies]
-actori-service = "1.0.1"
+actori-service = "1.0.5"
 actori-codec = "0.2.0"
-actori-utils = "1.0.4"
+actori-utils = "1.0.6"
 actori-rt = "1.0.0"
 bytes = "0.5.3"
 either = "1.5.3"
@@ -27,5 +27,5 @@ pin-project = "0.4.6"
 log = "0.4"
 
 [dev-dependencies]
-actori-connect = "1.0.0"
+actori-connect = "1.0.2"
 actori-testing = "1.0.0"
