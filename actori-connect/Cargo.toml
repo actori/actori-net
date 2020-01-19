@@ -31,7 +31,7 @@ rustls = ["rust-tls", "tokio-rustls", "webpki"]
 uri = ["http"]
 
 [dependencies]
-actori-service = "1.0.3"
+actori-service = "1.0.5"
 actori-codec = "0.2.0"
 actori-utils = "1.0.6"
 actori-rt = "1.0.0"
