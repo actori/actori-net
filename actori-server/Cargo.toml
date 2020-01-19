@@ -21,10 +21,10 @@ path = "src/lib.rs"
 default = []
 
 [dependencies]
-actori-service = "1.0.1"
+actori-service = "1.0.5"
 actori-rt = "1.0.0"
 actori-codec = "0.2.0"
-actori-utils = "1.0.4"
+actori-utils = "1.0.6"
 
 log = "0.4"
 num_cpus = "1.11"
