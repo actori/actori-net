@@ -33,7 +33,7 @@ fn main() -> io::Result<()> {
                 // construct transformation pipeline
                 pipeline(
                     // service for converting incoming TcpStream to a SslStream<TcpStream>
-                    fn_service(move |stream: actix_rt::net::TcpStream| async move {
+                    fn_service(move |stream: actori_rt::net::TcpStream| async move {
                         SslAcceptorExt::accept_async(&acceptor, stream.into_parts().0).await
                             .map_err(|e| println!("Openssl error: {}", e))
                     }))
