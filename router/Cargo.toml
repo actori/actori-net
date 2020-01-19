@@ -1,17 +1,17 @@
 [package]
-name = "actix-router"
+name = "actori-router"
 version = "0.2.4"
 authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
 description = "Path router"
-keywords = ["actix"]
-homepage = "https://actix.rs"
-repository = "https://github.com/actix/actix-net.git"
-documentation = "https://docs.rs/actix-router/"
+keywords = ["actori"]
+homepage = "https://actori.t42x.net"
+repository = "https://github.com/actori/actori-net.git"
+documentation = "https://docs.rs/actori-router/"
 license = "MIT/Apache-2.0"
 edition = "2018"
 
 [lib]
-name = "actix_router"
+name = "actori_router"
 path = "src/lib.rs"
 
 [features]

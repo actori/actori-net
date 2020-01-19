@@ -1,6 +1,6 @@
 environment:
   global:
-    PROJECT_NAME: actix-net
+    PROJECT_NAME: actori-net
   matrix:
     # Stable channel
     - TARGET: i686-pc-windows-msvc

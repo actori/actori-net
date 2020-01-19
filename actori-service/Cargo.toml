@@ -1,0 +1,27 @@
+[package]
+name = "actori-service"
+version = "1.0.5"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+description = "Actori service"
+keywords = ["network", "framework", "async", "futures"]
+homepage = "https://actori.t42x.net"
+repository = "https://github.com/actori/actori-net.git"
+documentation = "https://docs.rs/actori-service/"
+categories = ["network-programming", "asynchronous"]
+license = "MIT/Apache-2.0"
+edition = "2018"
+
+[badges]
+travis-ci = { repository = "actori/actori-service", branch = "master" }
+codecov = { repository = "actori/actori-service", branch = "master", service = "github" }
+
+[lib]
+name = "actori_service"
+path = "src/lib.rs"
+
+[dependencies]
+futures-util = "0.3.1"
+pin-project = "0.4.6"
+
+[dev-dependencies]
+actori-rt = "1.0.0"

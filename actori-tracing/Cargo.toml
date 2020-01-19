@@ -1,0 +1,26 @@
+[package]
+name = "actori-tracing"
+version = "0.1.0"
+authors = ["Rajasekharan Vengalil <avranju@gmail.com>"]
+description = "Support for tokio tracing with Actori services"
+keywords = ["network", "framework", "tracing"]
+homepage = "https://actori.t42x.net"
+repository = "https://github.com/actori/actori-net.git"
+documentation = "https://docs.rs/actori-tracing/"
+categories = ["network-programming", "asynchronous"]
+license = "MIT/Apache-2.0"
+edition = "2018"
+
+[lib]
+name = "actori_tracing"
+path = "src/lib.rs"
+
+[dependencies]
+actori-service = "1.0.4"
+futures-util = "0.3.1"
+tracing = "0.1"
+tracing-futures = "0.2"
+
+[dev_dependencies]
+actori-rt = "1.0"
+slab = "0.4"

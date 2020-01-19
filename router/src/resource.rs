@@ -55,7 +55,7 @@ impl ResourceDef {
                     Ok(re) => re,
                     Err(err) => panic!("Wrong path pattern: \"{}\" {}", path, err),
                 };
-                // actix creates one router per thread
+                // actori creates one router per thread
                 let names: Vec<_> = re
                     .capture_names()
                     .filter_map(|name| {
@@ -116,7 +116,7 @@ impl ResourceDef {
                 Ok(re) => re,
                 Err(err) => panic!("Wrong path pattern: \"{}\" {}", path, err),
             };
-            // actix creates one router per thread
+            // actori creates one router per thread
             let names = re
                 .capture_names()
                 .filter_map(|name| {

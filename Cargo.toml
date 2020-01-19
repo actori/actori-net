@@ -1,33 +1,33 @@
 [workspace]
 members = [
-  "actix-codec",
-  "actix-connect",
-  "actix-ioframe",
-  "actix-rt",
-  "actix-macros",
-  "actix-service",
-  "actix-server",
-  "actix-testing",
-  "actix-threadpool",
-  "actix-tls",
-  "actix-tracing",
-  "actix-utils",
+  "actori-codec",
+  "actori-connect",
+  "actori-ioframe",
+  "actori-rt",
+  "actori-macros",
+  "actori-service",
+  "actori-server",
+  "actori-testing",
+  "actori-threadpool",
+  "actori-tls",
+  "actori-tracing",
+  "actori-utils",
   "router",
   "string",
 ]
 
 [patch.crates-io]
-actix-codec = { path = "actix-codec" }
-actix-connect = { path = "actix-connect" }
-actix-ioframe = { path = "actix-ioframe" }
-actix-rt = { path = "actix-rt" }
-actix-macros = { path = "actix-macros" }
-actix-server = { path = "actix-server" }
-actix-service = { path = "actix-service" }
-actix-testing = { path = "actix-testing" }
-actix-threadpool = { path = "actix-threadpool" }
-actix-tls = { path = "actix-tls" }
-actix-tracing = { path = "actix-tracing" }
-actix-utils = { path = "actix-utils" }
-actix-router = { path = "router" }
+actori-codec = { path = "actori-codec" }
+actori-connect = { path = "actori-connect" }
+actori-ioframe = { path = "actori-ioframe" }
+actori-rt = { path = "actori-rt" }
+actori-macros = { path = "actori-macros" }
+actori-server = { path = "actori-server" }
+actori-service = { path = "actori-service" }
+actori-testing = { path = "actori-testing" }
+actori-threadpool = { path = "actori-threadpool" }
+actori-tls = { path = "actori-tls" }
+actori-tracing = { path = "actori-tracing" }
+actori-utils = { path = "actori-utils" }
+actori-router = { path = "router" }
 bytestring = { path = "string" }

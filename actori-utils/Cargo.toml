@@ -1,0 +1,28 @@
+[package]
+name = "actori-utils"
+version = "1.0.6"
+authors = ["Nikolay Kim <fafhrd91@gmail.com>"]
+description = "Actori utils - various actori net related services"
+keywords = ["network", "framework", "async", "futures"]
+homepage = "https://actori.t42x.net"
+repository = "https://github.com/actori/actori-net.git"
+documentation = "https://docs.rs/actori-utils/"
+categories = ["network-programming", "asynchronous"]
+license = "MIT/Apache-2.0"
+edition = "2018"
+
+[lib]
+name = "actori_utils"
+path = "src/lib.rs"
+
+[dependencies]
+actori-service = "1.0.1"
+actori-rt = "1.0.0"
+actori-codec = "0.2.0"
+bitflags = "1.2"
+bytes = "0.5.3"
+either = "1.5.3"
+futures = "0.3.1"
+pin-project = "0.4.6"
+log = "0.4"
+slab = "0.4"

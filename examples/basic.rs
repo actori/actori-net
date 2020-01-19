@@ -7,10 +7,10 @@ use std::sync::{
 };
 use std::{env, fmt, io};
 
-use actix_codec::{AsyncRead, AsyncWrite};
-use actix_rt::System;
-use actix_server::{Io, Server};
-use actix_service::{service_fn, NewService};
+use actori_codec::{AsyncRead, AsyncWrite};
+use actori_rt::System;
+use actori_server::{Io, Server};
+use actori_service::{service_fn, NewService};
 use futures::{future, Future};
 use openssl::ssl::{SslAcceptor, SslFiletype, SslMethod};
 use tokio_openssl::SslAcceptorExt;
@@ -24,7 +24,7 @@ fn logger<T: AsyncRead + AsyncWrite + fmt::Debug>(
 }
 
 fn main() -> io::Result<()> {
-    env::set_var("RUST_LOG", "actix_net=trace");
+    env::set_var("RUST_LOG", "actori_net=trace");
     env_logger::init();
 
     let sys = System::new("test");
@@ -42,7 +42,7 @@ fn main() -> io::Result<()> {
     let num = Arc::new(AtomicUsize::new(0));
 
     // bind socket address and start workers. By default server uses number of
-    // available logical cpu as threads count. actix net start separate
+    // available logical cpu as threads count. actori net start separate
     // instances of service pipeline in each worker.
     Server::build()
         .bind(
