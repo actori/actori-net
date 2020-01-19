@@ -16,7 +16,7 @@ name = "actori_tracing"
 path = "src/lib.rs"
 
 [dependencies]
-actori-service = "1.0.4"
+actori-service = "1.0.5"
 futures-util = "0.3.1"
 tracing = "0.1"
 tracing-futures = "0.2"
