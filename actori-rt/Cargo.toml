@@ -16,7 +16,7 @@ name = "actori_rt"
 path = "src/lib.rs"
 
 [dependencies]
-actori-macros = "0.1.0"
+actori-macros = "0.1.1"
 actori-threadpool = "0.3"
 futures = "0.3.1"
 copyless = "0.1.4"
