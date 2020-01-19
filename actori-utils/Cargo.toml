@@ -16,7 +16,7 @@ name = "actori_utils"
 path = "src/lib.rs"
 
 [dependencies]
-actori-service = "1.0.1"
+actori-service = "1.0.5"
 actori-rt = "1.0.0"
 actori-codec = "0.2.0"
 bitflags = "1.2"
